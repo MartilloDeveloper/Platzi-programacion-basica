@@ -1,0 +1,156 @@
+/* h1 es un selector de tipo, porque es la misma etiqueta en html */
+/* h1{ */
+    /* propiedad / valor */
+    /* color: lightcoral;
+} */
+
+body{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    /* align-items: center; */
+    /* background-image:url("background.jpg"); */
+    background-color: rgb(73, 71, 80);
+    justify-content: space-between;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.tittle{
+    font-size: 40px;
+    color: snow;
+    width: 380px;
+    height: 60px;
+    /* background-color: DarkRed; */
+    /* text-align: center;
+    justify-items: center; */
+    padding: 2px;
+    align-content: center;
+}
+
+#seleccionar-ataque{
+    display: block;
+    /* font-size: 20px; */
+    color: snow;
+    width: 380px;
+    height: 47px;
+    /* background-color: DarkRed; */
+    text-align: justify;
+    justify-items: center;
+    /* padding = espacio entre el contenido y el borde */
+    padding: 2px;
+    align-content: center;
+  }
+
+#seleccionar-mascota{
+    margin-left: 40px;
+    height: 100vh;
+}
+
+/* class es un selector en css, atributo similar a id */
+
+/* este es un selector de clase, su sintaxis es ".nombredelaclase" */
+/* .mascota{
+    color: silver;
+} */
+
+/* /* este es un selector de id, su sintaxis es "#nombredelaclase" */ 
+label{
+    width: 100px;
+    height: 20px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+}
+
+/* Las clases no deben ser declaradas con el mismo nombre del id, y viceversa */
+h2{
+    width: 190px;
+    font-family: monospace;
+    color: black;
+    background-color: darkgray;
+    border-radius: 25px;
+}
+
+input{
+    /* margin establece un espacio externo */
+    margin-right: 5px;
+    margin-left: 20px;
+    width: 20px;
+    /* height: 20px; */
+}
+/* display */
+button{
+    /* display: inline-table; */
+    border: 4px solid white;
+    /* borde */
+    width: 20vh;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: darkred;    
+}
+
+/* Si ocupa toda la visualizacion de la pantalla de izq a der es de tipo block. Si ocupa solo un pedacito es tipo inline */
+
+#boton-fuego{    
+    margin-block-end: 10px;
+    display: inline-block;
+    color: white;
+    background-color: orangered;
+}
+
+#boton-agua{
+    margin-block-end: 10px;
+    display: inline-block;
+    color: white;
+    background-color: deepskyblue;
+}
+
+#boton-tierra{
+    margin-block-end: 15px;
+    margin-left: 132px;
+    display: inline-block;
+    color: white;
+    background-color: saddlebrown;
+}
+
+#boton-mascota{
+    margin-left: 250px;
+}
+span#vida-jugador{
+    color: green;
+}
+
+span#vida-enemigo{
+    color: darkred;
+}
+
+#mensajes{
+    padding-left: 10px;
+    color: whitesmoke;
+    /* display: inline-block; */
+}
+
+#boton-reiniciar{
+    width: 30vh;
+}
+
+
+/* NOTAS
+    - Todas las propiedades estan descritas en ingles
+    - cssreference.io para guia de css
+    - htmlcolorcode.com/es para guia de colores en css
+    - utilizar el inspector de elementos
+*/
+
+/* RETO
+    - Hacer un ancho al h1
+    - hacer una alto al h1
+    - cambiar color de fondo al h1
+*/
+
+/* flexbox: herramienta para alinear/posicionar elementos dentro de una web 
+ 
+  - Puede ser de forma horizontal o vertical
+*/
+
+/* 100vh para abarcar todo el espacio de la pantalla */
